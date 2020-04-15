@@ -44,6 +44,6 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |word, index|
-    index == 2 ? word :  word + "s"
+    index == 1 ? word :  word + "s"
   end
 end
