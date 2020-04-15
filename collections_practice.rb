@@ -33,3 +33,6 @@ def kesha_maker(strings)
   end
   final_string
 end
+
+def find_a(strings)
+  strings.select {|string| string.start_with?("a")
