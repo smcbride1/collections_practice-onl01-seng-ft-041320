@@ -25,11 +25,11 @@ def reverse_array(integers)
 end
 
 def kesha_maker(strings)
-  final_string = ""
+  final_string = [""]
   strings.each do |string|
     modified_string_array = string.chars
     modified_string_array[2] = "$"
-    final_string = modified_string_array.join("")
+    final_string.push(modified_string_array.join(""))
   end
   final_string
 end
