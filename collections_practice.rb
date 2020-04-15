@@ -31,4 +31,5 @@ def kesha_maker(strings)
     modified_string_array[2] = "$"
     final_string = modified_string_array.join("")
   end
+  final_string
 end
